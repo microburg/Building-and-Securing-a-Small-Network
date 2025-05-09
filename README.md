@@ -1,6 +1,6 @@
 # Building-and-Securing-a-Small-Network
 
-This project simulates a secure and scalable network design suitable for a university campus or student dormitory. It separates users into VLANs based on departments or floors, assigns IPs dynamically using DHCP, and integrates wireless access for mobile devices. Security measures like port security, DHCP snooping, and Dynamic ARP Inspection prevent unauthorized access and common attacks such as MAC flooding and ARP spoofing. A firewall enforces traffic control between the internal network and external resources. This architecture ensures reliable, segmented, and secure connectivity for students, staff, and guest users—exactly what’s needed in a real campus or dorm environment.
+This project simulates a secure and scalable network design suitable for a university campus or student dormitory. It separates users into VLANs based on departments or floors, assigns IPs dynamically using DHCP, and integrates wireless access for laptops. Security measures like port security, DHCP snooping, and Dynamic ARP Inspection prevent unauthorized access and common attacks such as MAC flooding and ARP spoofing. This architecture ensures reliable, segmented, and secure connectivity for students, staff, and guest users—exactly what’s needed in a real campus or dorm environment.
 
 ## 🔧 Network Configuration Overview
 
