@@ -54,3 +54,16 @@ This project simulates a secure and scalable network design suitable for a unive
 #### ✅ Dynamic ARP Inspection (DAI)
 - **Enabled VLANs**: 10, 20, 30, 40
 - **Trusted Port**: Uplink to the multilayer switch
+
+### 📧 Email Server
+An internal email server was deployed as part of the network infrastructure to facilitate communication between users across VLANs. The domain used for the email system is:
+
+- **Domain Name**: `systememail.com`
+
+#### Features:
+- Supports sending and receiving internal mail within the campus network
+- Connected to DNS for name resolution
+- Accessible from multiple VLANs while protected by ACLs
+
+This setup simulates a realistic enterprise or educational environment where internal communication is securely managed without depending on external mail services.
+
