@@ -35,7 +35,11 @@ This project simulates a secure and scalable network design suitable for a unive
 - **Assigned VLAN**: 30
 - **Security**: WPA2-PSK
 - **Password**: `12345678`
-
+  
+- **Assigned VLAN**: 10
+- **Security**: WPA2-PSK
+- **Password**: `87654321`
+  
 ### 🔐 Port Security
 - **Enabled On**: All access ports on all switches
 - **Settings**:
