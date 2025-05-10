@@ -1,15 +1,15 @@
 # Building-and-Securing-a-Small-Network
 
-This project simulates a secure and scalable network design suitable for a university campus or student dormitory. It separates users into VLANs based on departments or floors, assigns IPs dynamically using DHCP, and integrates wireless access for laptops. Security measures like port security, DHCP snooping, and Dynamic ARP Inspection prevent unauthorized access and common attacks such as MAC flooding and ARP spoofing. This architecture ensures reliable, segmented, and secure connectivity for students, staff, and guest users—exactly what’s needed in a real campus or dorm environment.
+This project simulates a secure and scalable network for a small business environment. It uses VLANs to segment departments, assigns IPs dynamically through DHCP, and provides wireless connectivity for mobile users. Security features like port security, DHCP snooping, and Dynamic ARP Inspection protect the network from unauthorized access and attacks such as MAC flooding and ARP spoofing. This setup ensures reliable, organized, and protected communication across all departments and services.
 
 ## 🔧 Network Configuration Overview
 
 ### 🌐 VLANs
 - **VLANs Used**: 10, 20, 30, 40
 - **VLAN Purpose**:
-  - VLAN 10: Department 1
-  - VLAN 20: Department 2
-  - VLAN 30: Department 3
+  - VLAN 10: HR
+  - VLAN 20: Finance
+  - VLAN 30: IT
   - VLAN 40: Servers/Other
 - **802.1Q Trunking**: Enabled between Router and Switches
 
