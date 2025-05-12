@@ -65,9 +65,9 @@ An internal email server was deployed as part of the network infrastructure to f
 - **Domain Name**: `systememail.com`
 
 #### Features:
-- Supports sending and receiving internal mail within the campus network
+- Supports sending and receiving internal mail within the network
 - Connected to DNS for name resolution
 - Accessible from multiple VLANs while protected by ACLs
 
-This setup simulates a realistic enterprise or educational environment where internal communication is securely managed without depending on external mail services.
+This setup simulates a realistic enterprise environment where internal communication is securely managed without depending on external mail services.
 
